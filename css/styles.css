@@ -1,0 +1,33 @@
+.actions{
+    display: flex;
+    outline: 1px solid black;
+    list-style: none;
+        padding: 0;
+        margin: 0;
+}
+.button-img{
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: 0;
+    padding: 0;
+    border-radius: 50%;
+background-color: #2196F3;
+cursor: pointer;
+background-image: url(../img/twitter.svg);
+background-size: 50%;
+background-repeat: no-repeat;
+background-position: center;
+}
+.button-img :hover{
+    background-color: blanchedalmond;
+}
+.button-hard{
+    width: 40px;
+    height: 40px;
+    border: 0;
+    padding: 0;
+    border-radius: 10%;
+    cursor: pointer;
+    background-color: aqua;
+}
