@@ -19,7 +19,8 @@ background-size: 50%;
 background-repeat: no-repeat;
 background-position: center;
 }
-.button-img :hover{
+
+.button-img:hover{
     background-color: blanchedalmond;
 }
 .button-hard{
@@ -30,4 +31,7 @@ background-position: center;
     border-radius: 10%;
     cursor: pointer;
     background-color: aqua;
+}
+.button-hard :hover{
+    background-color: blanchedalmond;
 }
